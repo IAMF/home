@@ -3,9 +3,8 @@
 /* GRID 3 */
 /* Mozilla */
 @font-face {
-  font-family: "FF DIN Pro";
-  src: url("fonts/ff-din-pro.eot");
-  src: local("☺"), url("../assets/fonts/ff-din-pro.woff") format("woff"), url("../assets/fonts/ff-din-pro.ttf") format("truetype"), url("../assets/fonts/ff-din-pro.svg") format("svg");
+  font-family: "OpenSans";
+  src: url("../assets/fonts/OpenSans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -172,14 +171,14 @@ h2 {
 }
 
 h3 {
-  font-family: "FF DIN Pro", "Open Sans", "Helvetica", sans-serif;
+  font-family: "Open Sans", "Helvetica", sans-serif;
   font-size: 22px;
   font-weight: bold;
   line-height: 125%;
 }
 
 h4, h5, h6 {
-  font-family: "FF DIN Pro", "Open Sans", "Helvetica", sans-serif;
+  font-family: "Open Sans", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: bold;
   line-height: 125%;
@@ -1703,7 +1702,7 @@ p.social:after {
 body, html, input, select, textarea {
   font-size: 16px;
   line-height: 125%;
-  font-family: "FF DIN Pro", "Open Sans", "Helvetica", sans-serif;
+  font-family: "Open Sans", "Helvetica", sans-serif;
   color: #000;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
@@ -1727,7 +1726,7 @@ em, i {
 }
 
 p {
-  font-family: "FF DIN Pro", "Open Sans", "Helvetica", sans-serif;
+  font-family: "Open Sans", "Helvetica", sans-serif;
   line-height: 125%;
 }
 
