@@ -5,10 +5,13 @@
     <style id="bgStyle"></style>
     <script  type="text/javascript">
       var elem = document.getElementById("bgStyle");
-      if (Math.random() < 0.5) {
+      var random = Math.random();
+      if (random < 0.33) {
         elem.innerHTML = 'html { background: url(images/wheelchair.png) no-repeat center fixed; background-size: cover; };'
-      } else {
+      } else if (random < 0.67) {
         elem.innerHTML = 'html { background: url(images/wheelchair2.png) no-repeat center fixed; background-size: cover; };'
+      } else {
+        elem.innerHTML = 'html { background: url(images/wheelchair3.png) no-repeat center fixed; background-size: cover; };'
       }
     </script>
     <!--
