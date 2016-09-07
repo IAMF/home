@@ -4,24 +4,21 @@
     <!-- Randomize the background image -->
     <style id="bgStyle"></style>
     <script  type="text/javascript">
-      var elem = document.getElementById("bgStyle");
+
+      var baseImage = 'images/wheelchair';
       var random = Math.random();
       if (random < 0.33) {
-        elem.innerHTML = 'html { background: url(images/wheelchair.png) no-repeat center fixed; background-size: cover; };'
-      } else if (random < 0.67) {
-        elem.innerHTML = 'html { background: url(images/wheelchair2.png) no-repeat center fixed; background-size: cover; };'
+        var idx = '1';
+      } else if (random < 0.65) {
+        var idx = '2';
       } else {
-        elem.innerHTML = 'html { background: url(images/wheelchair3.png) no-repeat center fixed; background-size: cover; };'
+        var idx = '3';
       }
+
+      var elem = document.getElementById("bgStyle");
+      elem.innerHTML = 'html { background: url(' + baseImage + idx + '.png' + '); background-color: #fff; background-repeat: no-repeat; background-position: center; background-attachment: fixed; webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 100%; width 100%; };'
     </script>
-    <!--
-    <style>
-      html {
-          background: url(images/wheelchair.png) no-repeat center fixed; 
-          background-size: cover;
-      };
-    </style>
-    -->
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>About | Industrial Arts &amp; Method Foundation</title>
     
