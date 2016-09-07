@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Randomize the background image -->
+    <style id="bgStyle"></style>
+    <script  type="text/javascript">
+      var elem = document.getElementById("bgStyle");
+      if (Math.random() < 0.5) {
+        elem.innerHTML = 'html { background: url(images/wheelchair.png) no-repeat center fixed; background-size: cover; };'
+      } else {
+        elem.innerHTML = 'html { background: url(images/wheelchair2.png) no-repeat center fixed; background-size: cover; };'
+      }
+    </script>
+    <!--
     <style>
       html {
           background: url(images/wheelchair.png) no-repeat center fixed; 
           background-size: cover;
       };
     </style>
+    -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>About | Industrial Arts &amp; Method Foundation</title>
     
