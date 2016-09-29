@@ -1,6 +1,6 @@
 /* General Website JavaScript */
 
-const futureEventsList = [
+const FUTUREEVENTSLIST = [
 
     {
 	'title': 'Libre Learn Lab',
@@ -35,7 +35,7 @@ const futureEventsList = [
 
 ];
 
-const pastEventsList = [
+const PASTEVENTSLIST = [
 
     {'title': 'Jurnid Sessions// Digiartefacto',
      'link': 'https://www.eventbrite.com/e/jurnid-sessions-digiartefacto-tickets-26914911224',
@@ -48,44 +48,43 @@ const pastEventsList = [
 
 var eventPage = {
     futureEvents: function() {
-	console.log('Future');
         var content = "<div class='grid-12 content'><p>&nbsp;<br>&nbsp;<br>&nbsp;</p></div>"
         var future = document.getElementById('future');
-        for (var i = 0; i < futureEventsList.length; i++) {
+        for (var i = 0; i < FUTUREEVENTSLIST.length; i++) {
 
             content += "<div class='grid-12 content'><div class='grid-12-6'>";
             // Title is the only required field
 	    content += "<h2 class='uppercase'>";
-            content += futureEventsList[i]['title'];
+            content += FUTUREEVENTSLIST[i]['title'];
             content += '</h2><p>';
 
-            if ('link' in futureEventsList[i]) {
+            if ('link' in FUTUREEVENTSLIST[i]) {
                 content += '<a href="';
-                content += futureEventsList[i]['link'];
+                content += FUTUREEVENTSLIST[i]['link'];
                 content += '">';
 	    }
 
-            if ('image' in futureEventsList[i]) {
+            if ('image' in FUTUREEVENTSLIST[i]) {
                 content += '<img src="./images/';
-                content += futureEventsList[i]['image'];
+                content += FUTUREEVENTSLIST[i]['image'];
                 content += '" data-src="./images/';
-                content += futureEventsList[i]['image'];
+                content += FUTUREEVENTSLIST[i]['image'];
 		content += ' class="unveil block" width="386">'
 	    }
 
-            if ('link' in futureEventsList[i]) {
+            if ('link' in FUTUREEVENTSLIST[i]) {
                 content += '</a></p><p>';
             } else {
                 content += '</p><p>';
 	    }
 
-            if ('date' in futureEventsList[i]) {
-                content += futureEventsList[i]['date'];
+            if ('date' in FUTUREEVENTSLIST[i]) {
+                content += FUTUREEVENTSLIST[i]['date'];
                 content += '<br><br>';
 	    }
 
-            if ('description' in futureEventsList[i]) {
-                content += futureEventsList[i]['description'];
+            if ('description' in FUTUREEVENTSLIST[i]) {
+                content += FUTUREEVENTSLIST[i]['description'];
 	    }
 
             content += '</p><h3 class="uppercase"><br></h3></div>';
@@ -96,7 +95,7 @@ var eventPage = {
 
             content += '</div>';
 
-            if (i === futureEventsList.length - 1) {
+            if (i === FUTUREEVENTSLIST.length - 1) {
                 content += '<div class="grid-12 content"><div class="grid-12-9"><hr><p>&nbsp;</p></div></div></section>';
 	    } else {
 		content += '</div>';
@@ -107,44 +106,43 @@ var eventPage = {
     },
 
     pastEvents: function() {
-	console.log('Past');
         var content = "<div class='grid-12 content'><p>&nbsp;<br>&nbsp;<br>&nbsp;</p></div>"
         var past = document.getElementById('past');
-        for (var i = 0; i < pastEventsList.length; i++) {
+        for (var i = 0; i < PASTEVENTSLIST.length; i++) {
 
             content += "<div class='grid-12 content'><div class='grid-12-6'>";
             // Title is the only required field
 	    content += "<h2 class='uppercase'>";
-            content += pastEventsList[i]['title'];
+            content += PASTEVENTSLIST[i]['title'];
             content += '</h2><p>';
 
-            if ('link' in pastEventsList[i]) {
+            if ('link' in PASTEVENTSLIST[i]) {
                 content += '<a href="';
-                content += pastEventsList[i]['link'];
+                content += PASTEVENTSLIST[i]['link'];
                 content += '">';
 	    }
 
-            if ('image' in pastEventsList[i]) {
+            if ('image' in PASTEVENTSLIST[i]) {
                 content += '<img src="./images/';
-                content += pastEventsList[i]['image'];
+                content += PASTEVENTSLIST[i]['image'];
                 content += '" data-src="./images/';
-                content += pastEventsList[i]['image'];
+                content += PASTEVENTSLIST[i]['image'];
 		content += ' class="unveil block" width="386">'
 	    }
 
-            if ('link' in pastEventsList[i]) {
+            if ('link' in PASTEVENTSLIST[i]) {
                 content += '</a></p><p>';
             } else {
                 content += '</p><p>';
 	    }
 
-            if ('date' in pastEventsList[i]) {
-                content += pastEventsList[i]['date'];
+            if ('date' in PASTEVENTSLIST[i]) {
+                content += PASTEVENTSLIST[i]['date'];
                 content += '<br><br>';
 	    }
 
-            if ('description' in pastEventsList[i]) {
-                content += pastEventsList[i]['description'];
+            if ('description' in PASTEVENTSLIST[i]) {
+                content += PASTEVENTSLIST[i]['description'];
 	    }
 
             content += '</p><h3 class="uppercase"><br></h3></div>';
