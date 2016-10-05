@@ -4,7 +4,7 @@ const FUTUREEVENTSLIST = [
     {
 	'title': 'Masters of Tomorrow',
 	'date': 'November 29, 2016 at LAB Miami',
-	'description': ''
+	'description': 'A gathering of like-minded designers, entrepreneurs, artists, and engineers who are changing the world'
     },
 
     {
