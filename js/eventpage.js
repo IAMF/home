@@ -2,12 +2,6 @@
 
 const FUTUREEVENTSLIST = [
     {
-	'title': 'Masters of Tomorrow',
-	'date': 'November 29, 2016 at LAB Miami',
-	'description': 'A gathering of like-minded designers, entrepreneurs, artists, and engineers who are changing the world'
-    },
-
-    {
 	'title': 'Libre Learn Lab',
 	'link': 'https://librelearnlab.org',
 	'image': 'lll_0.png',
@@ -36,6 +30,12 @@ const FUTUREEVENTSLIST = [
 	'link': 'https://eventos.paraguay.gov.py/sociedaddelacreatividad/',
 	'image': 'paraguay.png',
 	'description': 'En el mes de octubre del año 2013 el grupo EduJam-Uruguay junto con la Asociación Paraguay Educa, han organizado la Cumbre Internacional de Tecnologías de la Información y Comunicación y el Futuro de la Educación con apoyo de la Secretaría Nacional de Tecnologías de la Información y Comunicación (SENATICs). El evento consistió en 4 días de actividades, dos conferencias magistrales, talleres educativos con uso de actividades del Entorno Sugar de Sugar Labs y el día internacional de TortugArte.'
+    },
+
+    {
+	// 'title': 'Masters of Tomorrow',
+	'date': 'November 29, 2016 at LAB Miami',
+	'description': 'A gathering of like-minded designers, entrepreneurs, artists, and engineers who are changing the world'
     },
 
 ];
