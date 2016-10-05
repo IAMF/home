@@ -1,6 +1,11 @@
 /* General Website JavaScript */
 
 const FUTUREEVENTSLIST = [
+    {
+	'title': 'Masters of Tomorrow',
+	'date': 'November 29, 2016 at LAB Miami',
+	'description': ''
+    },
 
     {
 	'title': 'Libre Learn Lab',
