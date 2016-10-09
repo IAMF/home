@@ -2,14 +2,6 @@
 
 const FUTUREEVENTSLIST = [
     {
-	'title': 'Libre Learn Lab',
-	'link': 'https://librelearnlab.org',
-	'image': 'lll_0.png',
-	'date': 'October 8th-9th, 2016 at the Sloan School of Management at MIT in Cambridge, Massachusetts',
-	'description': 'Libre Learn Lab is a two-day summit  for people who create, use and implement freely licensed resources for K-12 education, bringing together educators, policy experts, software developers, hardware hackers, and activists to share best practices and address the challenges of widespread adoption of these resources in education.'
-    },
-
-    {
 	'title': 'Singularity Univiersity Miami Salons',
 	'link': 'http://nata957.wixsite.com/sumiamisalontest2',
 	'image': 'singularity.png',
@@ -41,6 +33,14 @@ const FUTUREEVENTSLIST = [
 ];
 
 const PASTEVENTSLIST = [
+
+    {
+	'title': 'Libre Learn Lab',
+	'link': 'https://librelearnlab.org',
+	'image': 'lll_0.png',
+	'date': 'October 8th-9th, 2016 at the Sloan School of Management at MIT in Cambridge, Massachusetts',
+	'description': 'Libre Learn Lab is a two-day summit  for people who create, use and implement freely licensed resources for K-12 education, bringing together educators, policy experts, software developers, hardware hackers, and activists to share best practices and address the challenges of widespread adoption of these resources in education.'
+    },
 
     {'title': 'Jurnid Sessions// Digiartefacto',
      'link': 'https://www.eventbrite.com/e/jurnid-sessions-digiartefacto-tickets-26914911224',
