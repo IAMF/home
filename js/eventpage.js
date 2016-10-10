@@ -3,7 +3,7 @@
 const FUTUREEVENTSLIST = [
     {
 	'title': 'Singularity Univiersity Miami Salons',
-	'link': 'http://nata957.wixsite.com/sumiamisalontest2',
+	'link': 'http://www.singularityumiamisalon.com/',
 	'image': 'singularity.png',
 	'date': 'October 19th, 2016, 7:00PM<br>MIAMI THEATRE CENTER<br>9806 NE 2nd Ave., Miami Shores, FL 33138<br><br><em>THE UNIVERSITY</em>,a documentary by Matt Rutherford',
 	'description': 'Come join us as we celebrate the launch of our Salons with a special treat: the only private preview screening in the United States of <em>The University</em>, a feature documentary about Singularity University by film director Matt Rutherford, who will be there with us that night.'
