@@ -2,6 +2,14 @@
 
 const FUTUREEVENTSLIST = [
     {
+	'title': 'IDEATION: Design Thinking Course',
+        'link': 'http://theideacenter.co/',
+        'image': 'ibionics.png',
+	'date': 'October 18, 2016,  6:30–10:30PM',
+        'description': 'Definition of ideation: the capacity for or the act of forming or entertaining ideas<br>Franco Lodato, President, Miami College of Design<br><br>The Idea Center<br>315 NE 2nd Ave<br>Miami, FL 33132, USA'
+    },
+
+    {
 	'title': 'Singularity Univiersity Miami Salons',
 	'link': 'http://www.singularityumiamisalon.com/',
 	'image': 'singularity.png',
