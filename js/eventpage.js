@@ -5,7 +5,7 @@ const FUTUREEVENTSLIST = [
 	'title': 'Masters of Tomorrow',
         'link': 'https://www.facebook.com/MOTSummit/',
         'image': 'mot.png',
-	'date': 'November 29, 2016 at LAB Miami',
+	'date': 'November 30, 2016 at LAB Miami',
 	'description': 'Masters of Tomorrow (MOT) Summit is tech and art conferences that takes place in Miami during Art Basel week. It gathers global thought-leaders, artists, technologists and entrepreneurs from around the world to learn, network and inspire each other.'
     },
 
