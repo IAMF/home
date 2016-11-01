@@ -1874,3 +1874,177 @@ div.content:after {
 .m-top-50 {
   margin-top: 50px !important;
 }
+
+<!-- begin Mail Chimp styles -->
+
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    line-height: 50px !important;
+    font: 16px FFDINWebMedium, OpenSans, Helvetica, Arial, sans-serif;
+}
+
+label {
+    display: block;
+    width: auto;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.mergeRow {
+    padding: 0 0 6px 0 !important;
+    clear: both;
+}
+
+.field-group {
+    position: relative;
+    margin: 3px 0 12px 0;
+    overflow: hidden;
+    background: transparent !important;
+}
+
+.mergeRow-radio .field-group, .mergeRow-interests-checkboxes .field-group {margin-bottom: 6px;}
+
+input, textarea, select {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    background: #fff;
+    width: 100%;
+    border: 2px solid #d0d0d0 !important;
+    border-radius: 3px;
+    -webkit-appearance: none;
+}
+
+.field-group input, select, textarea, .dijitInputField {
+    font-size: 16px;
+}
+
+.field-group.error > input,
+.field-group.error > select,
+.field-group.error .subfields,
+.field-group.error textarea {
+    border-color: #e85c41 !important;
+}
+
+textarea {
+    font: 14px/18px FFDINWebMedium, OpenSans, Helvetica, Arial, sans-serif;
+    width: 75%;
+    height: 150px;
+    overflow: auto;
+}
+
+/* Firefox always displays native select arrow button, so hide the background image arrow. */
+@-moz-document url-prefix() {
+    select {
+	padding: 8px;
+	background-position: -99px 0 !important;
+	-moz-appearance: none;
+    }
+}
+
+input:focus, textarea:focus, select:focus, .focused-field .subfields {
+    border-color: #5d5d5d !important;
+    outline: none;
+}
+
+/* Prevent Chrome's autofill yellow box shadow */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+.focused-field .field-help, input:focus + .field-help {
+    display: block;
+    padding: 10px 0;
+    max-height: 100px;
+}
+
+.indicates-required {text-align: right;}
+.indicates-required span {
+    font-size: 150%;
+    font-weight: bold;
+    display: inline !important;
+}
+
+.formstatus {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+/* Groups, checkboxes, radio buttons */
+ul.interestgroup_field,
+ul.interestgroup_field li,
+ul.unsub-options,
+ul.unsub-options li,
+.interestgroup_row {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* Birthday & US phone field */
+.subfields {
+    display: block;
+    margin: 0;
+    padding: 8px 10px;
+    background: #fff;
+    width: 100%;
+    border: 2px solid #d0d0d0;
+    border-radius: 3px;
+    color: #d0d0d0
+}
+.subfields input {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 2.5em;
+    border: none !important;
+    text-align: center;
+}
+.subfields label {display: none;}
+.phonedetail2 input {width: 3.4em;}
+
+.borderbox, .field-help, input, textarea, select {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.field-shift {
+    left: -9999px; position: absolute;
+}
+
+html[dir="rtl"] .field-shift {
+    right: -9999px;
+    left: auto;
+}
+
+
+.button:link,.button:active,.button:visited,.button,.button span{
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    width: 33%;
+}
+
+.button:hover{
+    background-color: #35B0E5 !important;
+    color: #ffffff !important;
+}
+
+.field-group input,select,textarea,.dijitInputField{
+    font-family:  FFDINWebMedium, OpenSans, Helvetica, Arial, sans-serif;
+    color: #35b0e5; !important;
+}
+
+.asterisk{
+    color: #35B0E5;
+    font-size: 20px;
+}
+
+.error,.errorText{
+    color: #e85c41;
+    font-weight: normal;
+}
+
+<!-- end Mail Chimp styles -->
