@@ -16,7 +16,7 @@
       }
 
       var elem = document.getElementById("bgStyle");
-      elem.innerHTML = 'html { background: url(' + baseImage + idx + '.png' + '); background-color: #fff; background-repeat: no-repeat; background-position: center; background-attachment: fixed; webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 100%; width 100%; };'
+      elem.innerHTML = 'html { background: url(' + baseImage + idx + '.png' + '); background-color: #fff; background-repeat: no-repeat; background-position: center; background-attachment: fixed; webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 100%; width 100%; <!-- overflow: hidden -->};'
     </script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -64,6 +64,7 @@
       @media screen and ( max-width: 782px ) {
       html { margin-top: 46px !important; }
       * html body { margin-top: 46px !important; }
+      body { height: 100%; overflow: scroll; -webkit-overflow-scrolling: touch; }
       }
     </style>
   </head>
